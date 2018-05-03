@@ -131,7 +131,7 @@ export PATH=$PATH:${SCRIPT_DIR}/../bin
 
 if [ $# -gt 3 ];
 then
-    help
+    usage
 else
     node=$2
     pushd . > /dev/null
